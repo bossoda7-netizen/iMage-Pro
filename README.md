@@ -2,6 +2,8 @@
 
 原生 macOS 图像编辑器，当前公开预览版为 **0.9.2**。项目使用 SwiftUI、AppKit、Core Image、Metal 和本机图像识别能力，智能修复模型在本机运行。
 
+[官网 · 探索灵感画布](https://bossoda7-netizen.github.io/iMage-Pro-website/) · [下载预览版](https://github.com/bossoda7-netizen/iMage-Pro/releases/tag/v0.9.2)
+
 ## 功能
 
 - 多图层编辑、文件夹、蒙版、剪切蒙版和非破坏效果器
