@@ -1,0 +1,26 @@
+# Build products and local packaging
+.build/
+dist/Previous/
+dist/.image-Pro-incoming.app/
+*.app/
+*.dmg
+
+# macOS metadata and local editor files
+.DS_Store
+._*
+*.swp
+
+# User data and recovery artifacts
+*.imgp
+recovery/
+
+# Independent website and private working files
+/website/
+/docs/
+/dist/
+.codex/
+.env
+.env.*
+*.pem
+*.p12
+*.mobileprovision

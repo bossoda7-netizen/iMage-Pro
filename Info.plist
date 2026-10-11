@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+<key>CFBundleName</key><string>iMage Pro</string>
+<key>CFBundleDisplayName</key><string>iMage Pro</string>
+<key>CFBundleExecutable</key><string>ImagePro</string>
+<key>CFBundleIdentifier</key><string>com.imagepro.editor</string>
+<key>CFBundleShortVersionString</key><string>0.9.2</string>
+<key>CFBundleVersion</key><string>16</string>
+<key>CFBundleDevelopmentRegion</key><string>zh-Hans</string>
+<key>CFBundleLocalizations</key><array><string>zh-Hans</string><string>en</string><string>ko</string><string>ja</string></array>
+<key>CFBundlePackageType</key><string>APPL</string>
+<key>CFBundleIconName</key><string>Icon</string>
+    <key>CFBundleIconFile</key><string>AppIcon</string>
+<key>LSMinimumSystemVersion</key><string>14.0</string>
+<key>NSHighResolutionCapable</key><true/>
+<key>NSPrincipalClass</key><string>NSApplication</string>
+<key>NSHumanReadableCopyright</key><string>iMage Pro · 2026</string>
+<key>CFBundleDocumentTypes</key><array><dict>
+<key>CFBundleTypeName</key><string>iMage Pro Project</string>
+<key>CFBundleTypeRole</key><string>Editor</string>
+<key>LSHandlerRank</key><string>Owner</string>
+<key>LSItemContentTypes</key><array><string>com.imagepro.project</string></array>
+<key>LSTypeIsPackage</key><true/>
+<key>CFBundleTypeExtensions</key><array><string>imgp</string></array>
+</dict><dict>
+<key>CFBundleTypeName</key><string>Image</string>
+<key>CFBundleTypeRole</key><string>Viewer</string>
+<key>LSHandlerRank</key><string>Alternate</string>
+<key>LSItemContentTypes</key><array><string>public.image</string><string>com.adobe.pdf</string></array>
+</dict></array>
+<key>UTExportedTypeDeclarations</key><array><dict>
+<key>UTTypeIdentifier</key><string>com.imagepro.project</string>
+<key>UTTypeDescription</key><string>iMage Pro Project</string>
+<key>UTTypeConformsTo</key><array><string>com.apple.package</string></array>
+<key>UTTypeTagSpecification</key><dict><key>public.filename-extension</key><array><string>imgp</string></array></dict>
+</dict></array>
+</dict></plist>

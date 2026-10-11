@@ -1,0 +1,4 @@
+module CInpaintingTools {
+ header "InpaintingTools.h"
+ export *
+}

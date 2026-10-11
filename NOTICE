@@ -1,0 +1,15 @@
+iMage Pro
+Copyright 2026 iMage Pro contributors.
+
+This distribution includes third-party components. Their copyrights and license
+terms remain with their respective authors and are listed in
+THIRD_PARTY_NOTICES.md, Sources/ImagePro/Legal/ThirdPartyLicenses.txt, and the
+application's About → Third-Party Licenses panel.
+
+The Apache License 2.0 for this project does not replace or supersede the
+licenses of bundled third-party components, model weights, fonts, test fixtures,
+or other separately licensed materials.
+
+The application icon and the icon artwork source under Design/Icon.icon are
+original artwork owned by the iMage Pro project. They are reserved and are not
+licensed under the Apache License 2.0.
