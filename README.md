@@ -1,36 +1,39 @@
 # iMage Pro
 
+<p>
+  <a href="README.md"><img src="assets/readme/language-zh.svg" alt="简体中文" height="30" /></a>
+  <a href="README.en.md"><img src="assets/readme/language-en.svg" alt="English" height="30" /></a>
+  <a href="README.ko.md"><img src="assets/readme/language-ko.svg" alt="한국어" height="30" /></a>
+  <a href="README.ja.md"><img src="assets/readme/language-ja.svg" alt="日本語" height="30" /></a>
+</p>
+
 原生 macOS 图像编辑器，当前公开预览版为 **0.9.2**。项目使用 SwiftUI、AppKit、Core Image、Metal 和本机图像识别能力，智能修复模型在本机运行。
 
 [官网 · 探索灵感画布](https://bossoda7-netizen.github.io/iMage-Pro-website/) · [下载预览版](https://github.com/bossoda7-netizen/iMage-Pro/releases/tag/v0.9.2)
 
+![iMage Pro 主界面](assets/readme/image-pro-overview.png)
+
 ## 功能
 
-- 多图层编辑、文件夹、蒙版、剪切蒙版和非破坏效果器
-- 选区、画笔、文字、路径、裁剪、渐变、变换和标尺工具
-- 智能修复、涂抹、液化推移、仿制图章等修饰工具
-- 四种界面语言：简体中文、English、한국어、日本語
+- 45款工具 36款效果器 直观使用体验
+- 多图层编辑、非破坏效果器、专业图谱、可排序调节器、标尺模式、智能工具栏
+- 四种界面语言：简体中文、英语、韩语、日语
 - `.imgp` 项目保存、PSD/PSB 导入和 PNG、JPEG、TIFF、WebP 等格式导出
-- 本机 ONNX Runtime 与 MI-GAN 模型，不要求 Python 或 Node.js
 
 ## 使用
 
-从 [GitHub Releases](https://github.com/bossoda7-netizen/iMage-Pro/releases) 下载 Apple Silicon 预览版，解压后将 `iMage Pro.app` 放入“应用程序”。当前版本采用临时签名，尚未通过 Apple 公证；如系统拦截，可在“系统设置 → 隐私与安全性”中查看是否提供“仍要打开”。
-
-双击应用启动。创建或打开项目后，使用底栏选择工具；图层、效果器和调节器分别从底栏和顶栏打开。使用顶栏“…”访问打开、保存、吸附、网格和使用指南。
-
-常用快捷键：V 移动、B 画笔、E 橡皮、M 选区、L 套索、T 文字、U 形状、C 裁剪、P 钢笔、⌘T 自由变换、⌘S 保存项目、⇧⌘E 导出。完整快捷键在应用的使用指南和设置 → 快捷键中提供。
-
-智能修复位于修饰分类。选择可编辑的图像图层后，涂过需要修复的区域，松开鼠标后由本机模型处理。建议分次处理小区域；结果可用 ⌘Z 撤销。
+从 [GitHub Releases](https://github.com/bossoda7-netizen/iMage-Pro/releases) 下载 Apple Silicon 预览版，解压后将 `iMage Pro.app` 放入“应用程序”。当前版本采用临时签名，尚未通过 Apple 公证；如系统拦截，可在“系统设置 → 隐私与安全性”中查看是否提供“仍然要打开”。
 
 ## 构建与测试
 
 要求 Xcode 26、Swift 6、Apple Silicon 和 macOS 14 或更高版本。
 
-    git clone https://github.com/bossoda7-netizen/iMage-Pro.git
-    cd iMage-Pro
-    zsh scripts/build.sh
-    swift test --scratch-path /tmp/image-pro-swift-build
+```sh
+git clone https://github.com/bossoda7-netizen/iMage-Pro.git
+cd iMage-Pro
+zsh scripts/build.sh
+swift test --scratch-path /tmp/image-pro-swift-build
+```
 
 公开分发前需要使用开发者证书重新签名并完成公证。构建脚本会验证随包模型、运行时、许可证和隐私清单。
 
@@ -55,5 +58,3 @@ iMage Pro 免费、开源。赞助完全自愿，不解锁功能，也不影响�
 也可以使用支付宝扫码支持：
 
 <img src="assets/alipay-qr.jpg" width="240" alt="支付宝赞助二维码" />
-
-此二维码由项目创作者提供，用于自愿赞助，保留其权利，不包含在代码许可证中。
